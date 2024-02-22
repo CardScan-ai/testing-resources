@@ -27,7 +27,7 @@ The `insurance-card-images` directory includes the following files:
 
 ### Test Videos
 
-<img src="insurance-test-videos/4k.png" width="350">
+<img src="insurance-test-videos/4k.png" width="600">
 
 
 The `insurance-test-videos` directory includes a `videos.zip` file containing sample videos in various resolutions for testing video processing capabilities. The available resolutions are:
@@ -84,7 +84,7 @@ This modification allows you to specify the path to a video file to be used as t
 CYPRESS_WEBCAM_VIDEO_PATH=./insurance-test-videos/1440p.y4m cypress open
 ```
 
-This command will run Cypress with the 1440p.y4m video file as the fake webcam input.
+This command will open Cypress with the 1440p.y4m video file as the fake webcam input.
 
 
 ## Contributing
